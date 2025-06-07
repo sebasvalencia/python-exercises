@@ -1,4 +1,3 @@
-# 1. Pide al usuario dos números. Imprime cuál de los dos números es mayor. Si son iguales, imprímelo.
 # 1. Ask the user for numbers. Print which number of numbers is larger. If they are the same, print it.
 
 def get_number(prompt: str):
