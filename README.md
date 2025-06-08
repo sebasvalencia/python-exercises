@@ -7,8 +7,10 @@ This repository contains programming exercises focused on Python for the Diploma
 📦 python_fundamentals
  ├── 📂 src
  │   └── 📝 compare_numbers.py
+ │   └── 📝 vowels.py
  ├── 📂 tests
  │   └── 📝 test_compare_numbers.py
+ │   └── 📝 test_vowels.py
  ├── 📝 pyproject.toml
  ├── 📝 README.md
 ```
@@ -24,9 +26,21 @@ This repository contains programming exercises focused on Python for the Diploma
 - Print which of the two numbers is greater.
 - If they are equal, print it.
 - Files:
+```bash
 src/compare_numbers.py
 tests/test_compare_numbers.py
+```
 
+2️⃣ Check if a Letter is a Vowel
+- Ask the user for a letter.
+- If it is a vowel (a, e, i, o, u), print "It is a vowel."
+- Otherwise, print "It is not a vowel."
+- Only considers lowercase letters.
+- Files:
+```bash
+src/vowels.py
+tests/test_vowels.py
+```
 
 More exercises will be added for different levels, focusing exclusively on Python programming concepts.
 
