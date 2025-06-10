@@ -8,9 +8,11 @@ This repository contains programming exercises focused on Python for the Diploma
  ├── 📂 src
  │   └── 📝 compare_numbers.py
  │   └── 📝 vowels.py
+ │   └── 📝 even_or_odd.py
  ├── 📂 tests
  │   └── 📝 test_compare_numbers.py
  │   └── 📝 test_vowels.py
+ │   └── 📝 test_even_or_odd.py
  ├── 📝 pyproject.toml
  ├── 📝 README.md
 ```
@@ -42,6 +44,16 @@ src/vowels.py
 tests/test_vowels.py
 ```
 
+3️⃣ Check if a Number is Even or Odd
+- Ask the user for an integer.
+- If the number is even, print "The number X is Even."
+- If the number is odd, print "The number X is Odd."
+- Files:
+```bash
+src/even_or_odd.py
+tests/test_even_or_odd.py
+```
+
 More exercises will be added for different levels, focusing exclusively on Python programming concepts.
 
 ## 📢 How to Run
@@ -55,3 +67,9 @@ python compare_numbers.py
 pytest tests
 ```
 
+## 📢 How to Run Coverage
+```bash
+coverage run -m pytest
+coverage report
+coverage html
+```
